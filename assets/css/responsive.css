@@ -1,0 +1,216 @@
+/* lage device  */
+@media(min-width: 992px) and (max-width: 1200px) {
+    .main-menu ul li {
+        display: inline-block;
+        margin-left: 23px;
+        position: relative;
+    }
+    .logo {
+        margin-top: -4px;
+    }
+    .features-area {
+        margin-top: 0;
+        padding-top: 100px;
+    }
+    .slider-inner h2 {
+        font-size: 42px;
+    }
+    /* fauture-area */
+    img, svg {
+        vertical-align: middle;
+        width: 100%;
+    }
+}
+/* mideum device  */
+@media(min-width: 768px) and (max-width: 991px) {
+    .logo {
+        padding-top: 12px;
+    }
+    .features-area {
+        margin-top: 0;
+        margin-top: 50px;
+    }
+    .slider-inner h2 {
+        font-size: 30px;
+    }
+    section.features-area {
+        margin-top: 0;
+    }
+    .single-features p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .slider-icon {
+        margin-top: 0;
+    }
+    .single-features h3 {
+        font-size: 18px;
+        margin-bottom: 13px;
+    }
+    .single-features i {
+        margin-bottom: 31px;
+    }
+    img, svg {
+        width: 100%;
+    }
+    .we-leader {
+        padding-top: 76px;
+    }
+    .we-leader h4 {
+        font-size: 20px;
+    }
+    .we-leader p {
+        font-size: 12px;
+        padding: 0;
+    }
+
+    /* skills-area start rsp*/
+    .skill-items {
+        margin-bottom: 25px;
+    }
+    .skill-items p {
+        padding-top: 10px;
+    }
+
+    /* priching area start rsp*/
+    .pricing-wrapper {
+        margin-bottom: 25px;
+    }
+    hr {
+        padding-top: 10px;
+    }
+    .pricing-wrapper li {
+        line-height: 30px;
+    }
+
+    .testimonial-name p {
+        width: 100%;
+        font-size: 15px;
+    }
+    /* counter-area start rsp */
+
+    /* team area start  */
+    .team-wrapper {
+        margin-bottom: 23px;
+    }
+
+    /* blog-area start */
+    .blog-content h3 a {
+        font-size: 16px;
+    }
+    .blog-content h3 {
+        margin-top: 15px;
+        margin-bottom: 6px;
+    }
+    .btn {
+        font-size: 9px;
+    }
+
+    .news-title h4 a {
+        font-size: 10px;
+    }
+    ul.footer-link li a {
+        font-size: 13px;
+    }
+    .contact-list {
+        margin-bottom: 10px;
+    }
+    .footer-last  p {
+        font-size: 13px;
+    }
+    .footer-area {
+        padding-top: 60px;
+    }
+}
+/* Extra small device */
+@media(max-width: 768px) {
+    .mean-container a.meanmenu-reveal {
+        margin-top: -60px;
+    }
+    img, svg {
+        vertical-align: text-bottom;
+    }
+    .about-image img {
+        width: 100%;
+    }
+    .slider-icon {
+        margin-top: 0;
+    }
+    .slider-inner h2 {
+        font-size: 18px;
+    }
+    .slider-inner p {
+        font-size: 9px;
+    }
+    .slider-inner h2 {
+        margin-bottom: 0;
+    }
+    .features-area {
+        margin-top: -60px;
+        padding-top: 50px;
+    }
+    .slider-icon a {
+        font-size: 12px;
+    }
+    .single-features {
+        border-bottom: 1px solid #ddd;
+    }
+    .we-leader h4 {
+        font-size: 26px;
+    }
+
+    .subscribe-form input {
+        width: 40%;
+        margin-bottom: 20px;
+    }
+    .skill-items {
+        margin-bottom: 25px;
+    }
+    .header-area {
+        padding: 0;
+    }
+
+    .mean-container .mean-nav {
+        margin-top: 0px;
+    }
+    .slider-inner { 
+        margin-top: 0;
+    }
+    .btn {
+        padding: 7px 20px;
+    }
+    .slider-icon a {
+        margin-top: -12px;
+    }
+
+    element.style {
+        background-image: url("assets/images/slider.png");
+        width: 375px;
+        height: 454px;
+    }
+    .single-slider {
+        height: 30vh;
+    }
+    .single-counter.text-center {
+        margin-bottom: 71px;
+    }
+
+    .blog-thums img {
+        width: 100%;
+        padding-top: 40px;
+    }
+
+    .slick-initialized .slick-slide {
+        display: none;
+    }
+    .footer-widget {
+        margin-bottom: 49px;
+    }
+    .news-thumnils {
+        float: left;
+        padding-top: 0; 
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 0px 21px;
+    }
+}
